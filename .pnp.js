@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "gatsby-source-bgg",
+        "name": "typescript-template",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["gatsby-source-bgg", ["workspace:."]]
+      ["typescript-template", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:11.0.0"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.3.0"],
-            ["ts-jest", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:26.5.6"],
+            ["ts-jest", "virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "SOFT",
@@ -2729,24 +2729,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["function-bind", "npm:1.1.1"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["gatsby-source-bgg", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["gatsby-source-bgg", "workspace:."],
-            ["@types/jest", "npm:26.0.23"],
-            ["@types/node", "npm:14.17.0"],
-            ["husky", "npm:6.0.0"],
-            ["jest", "npm:26.6.3"],
-            ["lint-staged", "npm:11.0.0"],
-            ["pinst", "npm:2.1.6"],
-            ["prettier", "npm:2.3.0"],
-            ["ts-jest", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:26.5.6"],
-            ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["gauge", [
@@ -6313,10 +6295,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:26.5.6", {
-          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-e51e8356ca/0/cache/ts-jest-npm-26.5.6-fa1909416a-fd32a8b256.zip/node_modules/ts-jest/",
+        ["virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6", {
+          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-7367fa5330/0/cache/ts-jest-npm-26.5.6-fa1909416a-fd32a8b256.zip/node_modules/ts-jest/",
           "packageDependencies": [
-            ["ts-jest", "virtual:b3cf2b0b8c3e1985eb68aa6649f9f9b993e0d34299d0d7d6347bf6e314973dc8224ce9f748aa779e19172543b5e468a83bfa8d879e3875229670c5f6fbf47f26#npm:26.5.6"],
+            ["ts-jest", "virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6"],
             ["@types/jest", "npm:26.0.23"],
             ["@types/typescript", null],
             ["bs-logger", "npm:0.2.6"],
@@ -6428,6 +6410,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["typescript-template", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["typescript-template", "workspace:."],
+            ["@types/jest", "npm:26.0.23"],
+            ["@types/node", "npm:14.17.0"],
+            ["husky", "npm:6.0.0"],
+            ["jest", "npm:26.6.3"],
+            ["lint-staged", "npm:11.0.0"],
+            ["pinst", "npm:2.1.6"],
+            ["prettier", "npm:2.3.0"],
+            ["ts-jest", "virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6"],
+            ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["union-value", [

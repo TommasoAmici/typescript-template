@@ -1,24 +1,19 @@
 {
-  "name": "gatsby-source-bgg",
+  "name": "typescript-template",
   "version": "0.1.0",
-  "description": "Source plugin for pulling content from BoardGameGeek",
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "BoardGameGeek"
-  ],
+  "description": "",
+  "keywords": [],
   "author": "Tommaso Amici",
   "license": "MIT",
-  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/TommasoAmici/gatsby-source-bgg#readme",
+  "homepage": "https://github.com/TommasoAmici/typescript-template#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TommasoAmici/gatsby-source-bgg.git"
+    "url": "https://github.com/TommasoAmici/typescript-template.git"
   },
   "bugs": {
-    "url": "https://github.com/TommasoAmici/gatsby-source-bgg/issues",
+    "url": "https://github.com/TommasoAmici/typescript-template/issues",
     "email": "me@tommasoamici.com"
   },
   "scripts": {

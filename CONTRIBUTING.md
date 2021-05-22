@@ -24,7 +24,7 @@ yarn build
 yarn link
 # then if your project is in the same directory as this one
 cd /path/to/your/project
-yarn link ../gatsby-source-bgg
+yarn link ../typescript-template
 ```
 
 ## Other commands

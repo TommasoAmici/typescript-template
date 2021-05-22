@@ -4,21 +4,21 @@ A template for Typescript projects
 
 ## At a glance
 
-<img src="https://img.shields.io/bundlephobia/minzip/gatsby-source-bgg">
-<img src="https://img.shields.io/npm/v/gatsby-source-bgg">
+<img src="https://img.shields.io/bundlephobia/minzip/typescript-template">
+<img src="https://img.shields.io/npm/v/typescript-template">
 
 ## Getting started
 
 First, install the package
 
 ```sh
-# npm install gatsby-source-bgg
-yarn add gatsby-source-bgg
+# npm install typescript-template
+yarn add typescript-template
 ```
 
 ## Found a bug?
 
-Please file a report in [this repository's issues](https://github.com/TommasoAmici/gatsby-source-bgg/issues)
+Please file a report in [this repository's issues](https://github.com/TommasoAmici/typescript-template/issues)
 
 ## Development
 
