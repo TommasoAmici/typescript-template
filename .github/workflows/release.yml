@@ -1,0 +1,32 @@
+name: Create release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build with Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: yarn
+
+      - name: Test
+      - run: yarn test
+
+      - name: Build
+      - run: yarn build
+
+      - name: Create GitHub release
+      - run: |
+          yarn pack --out typescript-template.tgz
+          tagname="${GITHUB_REF#refs/tags/}"
+          gh release create "$tagname" typescript-template.tgz --notes-file CHANGELOG.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
