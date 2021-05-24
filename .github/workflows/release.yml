@@ -18,13 +18,13 @@ jobs:
       - run: yarn
 
       - name: Test
-      - run: yarn test
+        run: yarn test
 
       - name: Build
-      - run: yarn build
+        run: yarn build
 
       - name: Create GitHub release
-      - run: |
+        run: |
           yarn pack --out typescript-template.tgz
           tagname="${GITHUB_REF#refs/tags/}"
           gh release create "$tagname" typescript-template.tgz --notes-file CHANGELOG.md
