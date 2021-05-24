@@ -3,19 +3,19 @@
   "version": "0.2.2",
   "description": "",
   "keywords": [],
-  "author": "Tommaso Amici",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "homepage": "https://github.com/TommasoAmici/typescript-template#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TommasoAmici/typescript-template.git"
-  },
   "bugs": {
     "url": "https://github.com/TommasoAmici/typescript-template/issues",
     "email": "me@tommasoamici.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TommasoAmici/typescript-template.git"
+  },
+  "license": "MIT",
+  "author": "Tommaso Amici",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --passWithNoTests",
