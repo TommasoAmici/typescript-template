@@ -4,16 +4,16 @@ A template for Typescript projects
 
 ## At a glance
 
-<img src="https://img.shields.io/bundlephobia/minzip/typescript-template">
-<img src="https://img.shields.io/npm/v/typescript-template">
+<img src="https://img.shields.io/bundlephobia/minzip/tommasoamici-typescript-template">
+<img src="https://img.shields.io/npm/v/tommasoamici-typescript-template">
 
 ## Getting started
 
 First, install the package
 
 ```sh
-# npm install typescript-template
-yarn add typescript-template
+# npm install tommasoamici-typescript-template
+yarn add tommasoamici-typescript-template
 ```
 
 ## Found a bug?

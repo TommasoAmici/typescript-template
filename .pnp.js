@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "typescript-template",
+        "name": "tommasoamici-typescript-template",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["typescript-template", ["workspace:."]]
+      ["tommasoamici-typescript-template", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:11.0.0"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.3.0"],
-            ["ts-jest", "virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6"],
+            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "SOFT",
@@ -6256,6 +6256,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["tommasoamici-typescript-template", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["tommasoamici-typescript-template", "workspace:."],
+            ["@types/jest", "npm:26.0.23"],
+            ["@types/node", "npm:14.17.0"],
+            ["husky", "npm:6.0.0"],
+            ["jest", "npm:26.6.3"],
+            ["lint-staged", "npm:11.0.0"],
+            ["pinst", "npm:2.1.6"],
+            ["prettier", "npm:2.3.0"],
+            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6"],
+            ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
       ["tough-cookie", [
         ["npm:2.5.0", {
           "packageLocation": "./.yarn/cache/tough-cookie-npm-2.5.0-79a2fe43fe-bf5d6fac5c.zip/node_modules/tough-cookie/",
@@ -6295,10 +6313,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6", {
-          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-7367fa5330/0/cache/ts-jest-npm-26.5.6-fa1909416a-fd32a8b256.zip/node_modules/ts-jest/",
+        ["virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6", {
+          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-9ccf744f02/0/cache/ts-jest-npm-26.5.6-fa1909416a-fd32a8b256.zip/node_modules/ts-jest/",
           "packageDependencies": [
-            ["ts-jest", "virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6"],
+            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6"],
             ["@types/jest", "npm:26.0.23"],
             ["@types/typescript", null],
             ["bs-logger", "npm:0.2.6"],
@@ -6410,24 +6428,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["typescript-template", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["typescript-template", "workspace:."],
-            ["@types/jest", "npm:26.0.23"],
-            ["@types/node", "npm:14.17.0"],
-            ["husky", "npm:6.0.0"],
-            ["jest", "npm:26.6.3"],
-            ["lint-staged", "npm:11.0.0"],
-            ["pinst", "npm:2.1.6"],
-            ["prettier", "npm:2.3.0"],
-            ["ts-jest", "virtual:a596f1a7812e596db2bed56d1bd23a4c002a48c7ab5b08a56f47ff16eb397604cbdd1ee8854171acb4a10ef7dc3ed60fa74afd0a6d8d586f441f01660286e915#npm:26.5.6"],
-            ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["union-value", [
