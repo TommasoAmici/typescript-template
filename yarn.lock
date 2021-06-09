@@ -727,7 +727,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^26.0.23":
+"@types/jest@npm:26.0.23":
   version: 26.0.23
   resolution: "@types/jest@npm:26.0.23"
   dependencies:
@@ -744,7 +744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.17.0":
+"@types/node@npm:14.17.0":
   version: 14.17.0
   resolution: "@types/node@npm:14.17.0"
   checksum: f437147b39e04b23272eae604ec301b5a91956d386f96a2a796efa856d813df116c1afea511b2c23d908c0456c479bad32862aea6d6f0eaffcc1056603b98e64
@@ -2532,7 +2532,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"husky@npm:^6.0.0":
+"husky@npm:6.0.0":
   version: 6.0.0
   resolution: "husky@npm:6.0.0"
   bin:
@@ -3392,7 +3392,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.6.3":
+"jest@npm:26.6.3":
   version: 26.6.3
   resolution: "jest@npm:26.6.3"
   dependencies:
@@ -3593,7 +3593,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^11.0.0":
+"lint-staged@npm:11.0.0":
   version: 11.0.0
   resolution: "lint-staged@npm:11.0.0"
   dependencies:
@@ -4320,7 +4320,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"pinst@npm:^2.1.6":
+"pinst@npm:2.1.6":
   version: 2.1.6
   resolution: "pinst@npm:2.1.6"
   dependencies:
@@ -4372,7 +4372,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.3.0":
+"prettier@npm:2.3.0":
   version: 2.3.0
   resolution: "prettier@npm:2.3.0"
   bin:
@@ -5376,15 +5376,15 @@ fsevents@^2.1.2:
   version: 0.0.0-use.local
   resolution: "tommasoamici-typescript-template@workspace:."
   dependencies:
-    "@types/jest": ^26.0.23
-    "@types/node": ^14.17.0
-    husky: ^6.0.0
-    jest: ^26.6.3
-    lint-staged: ^11.0.0
-    pinst: ^2.1.6
-    prettier: ^2.3.0
-    ts-jest: ^26.5.6
-    typescript: ^4.2.4
+    "@types/jest": 26.0.23
+    "@types/node": 14.17.0
+    husky: 6.0.0
+    jest: 26.6.3
+    lint-staged: 11.0.0
+    pinst: 2.1.6
+    prettier: 2.3.0
+    ts-jest: 26.5.6
+    typescript: 4.2.4
   languageName: unknown
   linkType: soft
 
@@ -5418,7 +5418,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^26.5.6":
+"ts-jest@npm:26.5.6":
   version: 26.5.6
   resolution: "ts-jest@npm:26.5.6"
   dependencies:
@@ -5510,7 +5510,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^4.2.4:
+typescript@4.2.4:
   version: 4.2.4
   resolution: "typescript@npm:4.2.4"
   bin:
@@ -5520,7 +5520,7 @@ typescript@^4.2.4:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.2.4#builtin<compat/typescript>":
+"typescript@patch:typescript@4.2.4#builtin<compat/typescript>":
   version: 4.2.4
   resolution: "typescript@patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"
   bin:
