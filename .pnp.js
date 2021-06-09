@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:11.0.0"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.3.1"],
-            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6"],
+            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.3"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "SOFT",
@@ -854,6 +854,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:4.1.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:27.0.2", {
+          "packageLocation": "./.yarn/cache/@jest-types-npm-27.0.2-11212898dc-7c1ef76bcb.zip/node_modules/@jest/types/",
+          "packageDependencies": [
+            ["@jest/types", "npm:27.0.2"],
+            ["@types/istanbul-lib-coverage", "npm:2.0.3"],
+            ["@types/istanbul-reports", "npm:3.0.0"],
+            ["@types/node", "npm:15.3.1"],
+            ["@types/yargs", "npm:16.0.3"],
+            ["chalk", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@npmcli/move-file", [
@@ -1048,6 +1060,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-yargs-npm-15.0.13-d1172b1fcd-fa1a5b0a07.zip/node_modules/@types/yargs/",
           "packageDependencies": [
             ["@types/yargs", "npm:15.0.13"],
+            ["@types/yargs-parser", "npm:20.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:16.0.3", {
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-16.0.3-b6f52df1c2-84b8f61774.zip/node_modules/@types/yargs/",
+          "packageDependencies": [
+            ["@types/yargs", "npm:16.0.3"],
             ["@types/yargs-parser", "npm:20.2.0"]
           ],
           "linkType": "HARD",
@@ -1760,6 +1780,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/ci-info-npm-2.0.0-78012236a1-553fe83c08.zip/node_modules/ci-info/",
           "packageDependencies": [
             ["ci-info", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/ci-info-npm-3.2.0-90f4cf0660-d4a898d601.zip/node_modules/ci-info/",
+          "packageDependencies": [
+            ["ci-info", "npm:3.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3212,6 +3239,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ci-info", "npm:2.0.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/is-ci-npm-3.0.0-8cc50ac1f6-1e26d3ba66.zip/node_modules/is-ci/",
+          "packageDependencies": [
+            ["is-ci", "npm:3.0.0"],
+            ["ci-info", "npm:3.2.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["is-core-module", [
@@ -3978,6 +4013,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["graceful-fs", "npm:4.2.6"],
             ["is-ci", "npm:2.0.0"],
             ["micromatch", "npm:4.0.4"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:27.0.2", {
+          "packageLocation": "./.yarn/cache/jest-util-npm-27.0.2-543ecb60f0-5a4b507119.zip/node_modules/jest-util/",
+          "packageDependencies": [
+            ["jest-util", "npm:27.0.2"],
+            ["@jest/types", "npm:27.0.2"],
+            ["@types/node", "npm:15.3.1"],
+            ["chalk", "npm:4.1.1"],
+            ["graceful-fs", "npm:4.2.6"],
+            ["is-ci", "npm:3.0.0"],
+            ["picomatch", "npm:2.2.3"]
           ],
           "linkType": "HARD",
         }]
@@ -6268,7 +6316,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:11.0.0"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.3.1"],
-            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6"],
+            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.3"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "SOFT",
@@ -6306,24 +6354,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ts-jest", [
-        ["npm:26.5.6", {
-          "packageLocation": "./.yarn/cache/ts-jest-npm-26.5.6-fa1909416a-fd32a8b256.zip/node_modules/ts-jest/",
+        ["npm:27.0.3", {
+          "packageLocation": "./.yarn/cache/ts-jest-npm-27.0.3-10e7dc0605-a63f3a8620.zip/node_modules/ts-jest/",
           "packageDependencies": [
-            ["ts-jest", "npm:26.5.6"]
+            ["ts-jest", "npm:27.0.3"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6", {
-          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-9ccf744f02/0/cache/ts-jest-npm-26.5.6-fa1909416a-fd32a8b256.zip/node_modules/ts-jest/",
+        ["virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.3", {
+          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-fb0eccfd7c/0/cache/ts-jest-npm-27.0.3-10e7dc0605-a63f3a8620.zip/node_modules/ts-jest/",
           "packageDependencies": [
-            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:26.5.6"],
+            ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.3"],
             ["@types/jest", "npm:26.0.23"],
             ["@types/typescript", null],
             ["bs-logger", "npm:0.2.6"],
             ["buffer-from", "npm:1.1.1"],
             ["fast-json-stable-stringify", "npm:2.1.0"],
             ["jest", "npm:26.6.3"],
-            ["jest-util", "npm:26.6.2"],
+            ["jest-util", "npm:27.0.2"],
             ["json5", "npm:2.2.0"],
             ["lodash", "npm:4.17.21"],
             ["make-error", "npm:1.3.6"],
