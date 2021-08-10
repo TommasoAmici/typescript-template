@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@types/jest", "npm:26.0.24"],
+            ["@types/jest", "npm:27.0.0"],
             ["@types/node", "npm:14.17.9"],
             ["husky", "npm:7.0.1"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.6"],
@@ -1459,10 +1459,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/jest", [
-        ["npm:26.0.24", {
-          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.24-47c570294f-e5d3651c1e.zip/node_modules/@types/jest/",
+        ["npm:27.0.0", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-27.0.0-071a5f5a28-4cfc87d453.zip/node_modules/@types/jest/",
           "packageDependencies": [
-            ["@types/jest", "npm:26.0.24"],
+            ["@types/jest", "npm:27.0.0"],
             ["jest-diff", "npm:26.6.2"],
             ["pretty-format", "npm:26.6.2"]
           ],
@@ -5330,7 +5330,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["tommasoamici-typescript-template", "workspace:."],
-            ["@types/jest", "npm:26.0.24"],
+            ["@types/jest", "npm:27.0.0"],
             ["@types/node", "npm:14.17.9"],
             ["husky", "npm:7.0.1"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.6"],
@@ -5380,7 +5380,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", null],
             ["@types/babel-jest", null],
             ["@types/babel__core", null],
-            ["@types/jest", "npm:26.0.24"],
+            ["@types/jest", "npm:27.0.0"],
             ["@types/types__jest", null],
             ["@types/typescript", null],
             ["babel-jest", null],
