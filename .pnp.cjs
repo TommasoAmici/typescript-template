@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/jest", "npm:27.0.2"],
             ["@types/node", "npm:14.17.27"],
-            ["husky", "npm:7.0.2"],
+            ["husky", "npm:7.0.4"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.3.1"],
             ["lint-staged", "npm:11.2.3"],
             ["pinst", "npm:2.1.6"],
@@ -2677,10 +2677,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["husky", [
-        ["npm:7.0.2", {
-          "packageLocation": "./.yarn/cache/husky-npm-7.0.2-f2a671a0c6-2ccfe6ddc5.zip/node_modules/husky/",
+        ["npm:7.0.4", {
+          "packageLocation": "./.yarn/cache/husky-npm-7.0.4-917ba035c6-c6ec4af63d.zip/node_modules/husky/",
           "packageDependencies": [
-            ["husky", "npm:7.0.2"]
+            ["husky", "npm:7.0.4"]
           ],
           "linkType": "HARD",
         }]
@@ -5055,7 +5055,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tommasoamici-typescript-template", "workspace:."],
             ["@types/jest", "npm:27.0.2"],
             ["@types/node", "npm:14.17.27"],
-            ["husky", "npm:7.0.2"],
+            ["husky", "npm:7.0.4"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.3.1"],
             ["lint-staged", "npm:11.2.3"],
             ["pinst", "npm:2.1.6"],
