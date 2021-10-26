@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/jest", "npm:27.0.2"],
-            ["@types/node", "npm:14.17.32"],
+            ["@types/node", "npm:16.11.6"],
             ["husky", "npm:7.0.4"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.3.1"],
             ["lint-staged", "npm:11.2.4"],
@@ -1218,17 +1218,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:14.17.32", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.32-a7799c3ea0-c3ec45db5d.zip/node_modules/@types/node/",
-          "packageDependencies": [
-            ["@types/node", "npm:14.17.32"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:15.3.1", {
           "packageLocation": "./.yarn/cache/@types-node-npm-15.3.1-2d4ca53b7d-b62091a722.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:15.3.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:16.11.6", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.6-3a38cc239a-6e19634766.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:16.11.6"]
           ],
           "linkType": "HARD",
         }]
@@ -4969,7 +4969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["tommasoamici-typescript-template", "workspace:."],
             ["@types/jest", "npm:27.0.2"],
-            ["@types/node", "npm:14.17.32"],
+            ["@types/node", "npm:16.11.6"],
             ["husky", "npm:7.0.4"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.3.1"],
             ["lint-staged", "npm:11.2.4"],
