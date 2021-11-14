@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.11.7"],
             ["husky", "npm:7.0.4"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.3.1"],
-            ["lint-staged", "npm:12.0.1"],
+            ["lint-staged", "npm:12.0.2"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.4.1"],
             ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.7"],
@@ -2107,24 +2107,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:0f92ac16c8116ac6e4c9dc2d959f753f7eff4994e0deaaafc0b2102dbc8fb3238072802cf8ea0be0143dc030b24455a045cb010b9688bf3cb72e767016302227#npm:4.3.2", {
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-378535e64c/0/cache/debug-npm-4.3.2-f0148b6afe-820ea160e2.zip/node_modules/debug/",
-          "packageDependencies": [
-            ["debug", "virtual:0f92ac16c8116ac6e4c9dc2d959f753f7eff4994e0deaaafc0b2102dbc8fb3238072802cf8ea0be0143dc030b24455a045cb010b9688bf3cb72e767016302227#npm:4.3.2"],
-            ["ms", "npm:2.1.2"],
-            ["supports-color", "npm:9.0.2"]
-          ],
-          "packagePeers": [
-            "supports-color"
-          ],
-          "linkType": "HARD",
-        }],
         ["virtual:13aadb10a74575dd0e034d0bdf0858c9ee9289ee1d11e075867d4fb084b6d145f8eb8e7d6b5456728203936824e1774e1e7d8fecfc1717f3da48ad14bb82922d#npm:4.3.2", {
           "packageLocation": "./.yarn/__virtual__/debug-virtual-566d006cae/0/cache/debug-npm-4.3.2-f0148b6afe-820ea160e2.zip/node_modules/debug/",
           "packageDependencies": [
             ["debug", "virtual:13aadb10a74575dd0e034d0bdf0858c9ee9289ee1d11e075867d4fb084b6d145f8eb8e7d6b5456728203936824e1774e1e7d8fecfc1717f3da48ad14bb82922d#npm:4.3.2"],
             ["ms", "npm:2.1.2"],
             ["supports-color", null]
+          ],
+          "packagePeers": [
+            "supports-color"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:88efe3a3b12c5df9f6458d8438365963989b3b36a5a60472289b6011e824b3a28fd79e484dc1b6ff2a3de8e1e70eb5512e9499298cf7db93be80f25b3ef31971#npm:4.3.2", {
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-b928f1ecf0/0/cache/debug-npm-4.3.2-f0148b6afe-820ea160e2.zip/node_modules/debug/",
+          "packageDependencies": [
+            ["debug", "virtual:88efe3a3b12c5df9f6458d8438365963989b3b36a5a60472289b6011e824b3a28fd79e484dc1b6ff2a3de8e1e70eb5512e9499298cf7db93be80f25b3ef31971#npm:4.3.2"],
+            ["ms", "npm:2.1.2"],
+            ["supports-color", "npm:9.0.2"]
           ],
           "packagePeers": [
             "supports-color"
@@ -3721,17 +3721,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lint-staged", [
-        ["npm:12.0.1", {
-          "packageLocation": "./.yarn/cache/lint-staged-npm-12.0.1-0f92ac16c8-0a3a0cd6b5.zip/node_modules/lint-staged/",
+        ["npm:12.0.2", {
+          "packageLocation": "./.yarn/cache/lint-staged-npm-12.0.2-88efe3a3b1-dd90c182c7.zip/node_modules/lint-staged/",
           "packageDependencies": [
-            ["lint-staged", "npm:12.0.1"],
+            ["lint-staged", "npm:12.0.2"],
             ["cli-truncate", "npm:3.1.0"],
             ["colorette", "npm:2.0.16"],
             ["commander", "npm:8.3.0"],
             ["cosmiconfig", "npm:7.0.1"],
-            ["debug", "virtual:0f92ac16c8116ac6e4c9dc2d959f753f7eff4994e0deaaafc0b2102dbc8fb3238072802cf8ea0be0143dc030b24455a045cb010b9688bf3cb72e767016302227#npm:4.3.2"],
+            ["debug", "virtual:88efe3a3b12c5df9f6458d8438365963989b3b36a5a60472289b6011e824b3a28fd79e484dc1b6ff2a3de8e1e70eb5512e9499298cf7db93be80f25b3ef31971#npm:4.3.2"],
             ["execa", "npm:5.1.1"],
-            ["listr2", "virtual:0f92ac16c8116ac6e4c9dc2d959f753f7eff4994e0deaaafc0b2102dbc8fb3238072802cf8ea0be0143dc030b24455a045cb010b9688bf3cb72e767016302227#npm:3.13.3"],
+            ["listr2", "virtual:88efe3a3b12c5df9f6458d8438365963989b3b36a5a60472289b6011e824b3a28fd79e484dc1b6ff2a3de8e1e70eb5512e9499298cf7db93be80f25b3ef31971#npm:3.13.3"],
             ["micromatch", "npm:4.0.4"],
             ["normalize-path", "npm:3.0.0"],
             ["object-inspect", "npm:1.11.0"],
@@ -3749,10 +3749,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:0f92ac16c8116ac6e4c9dc2d959f753f7eff4994e0deaaafc0b2102dbc8fb3238072802cf8ea0be0143dc030b24455a045cb010b9688bf3cb72e767016302227#npm:3.13.3", {
-          "packageLocation": "./.yarn/__virtual__/listr2-virtual-9065aa66ab/0/cache/listr2-npm-3.13.3-521a6ceab5-3ece0f132c.zip/node_modules/listr2/",
+        ["virtual:88efe3a3b12c5df9f6458d8438365963989b3b36a5a60472289b6011e824b3a28fd79e484dc1b6ff2a3de8e1e70eb5512e9499298cf7db93be80f25b3ef31971#npm:3.13.3", {
+          "packageLocation": "./.yarn/__virtual__/listr2-virtual-a7881eefb7/0/cache/listr2-npm-3.13.3-521a6ceab5-3ece0f132c.zip/node_modules/listr2/",
           "packageDependencies": [
-            ["listr2", "virtual:0f92ac16c8116ac6e4c9dc2d959f753f7eff4994e0deaaafc0b2102dbc8fb3238072802cf8ea0be0143dc030b24455a045cb010b9688bf3cb72e767016302227#npm:3.13.3"],
+            ["listr2", "virtual:88efe3a3b12c5df9f6458d8438365963989b3b36a5a60472289b6011e824b3a28fd79e484dc1b6ff2a3de8e1e70eb5512e9499298cf7db93be80f25b3ef31971#npm:3.13.3"],
             ["@types/enquirer", null],
             ["cli-truncate", "npm:2.1.0"],
             ["clone", "npm:2.1.2"],
@@ -5091,7 +5091,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.11.7"],
             ["husky", "npm:7.0.4"],
             ["jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.3.1"],
-            ["lint-staged", "npm:12.0.1"],
+            ["lint-staged", "npm:12.0.2"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.4.1"],
             ["ts-jest", "virtual:eb7176b6ee4073eb7c87d25f710cec7580dd95e5439b1415edd05dba1bc8ba67e706c51016e184d002ac332030a728c350af240b47d5962a7aa583c64aeed887#npm:27.0.7"],
