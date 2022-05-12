@@ -28,7 +28,7 @@
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write"
   },
   "devDependencies": {
-    "@types/jest": "27.5.0",
+    "@types/jest": "27.5.1",
     "@types/node": "16.11.34",
     "husky": "7.0.4",
     "jest": "27.5.1",
